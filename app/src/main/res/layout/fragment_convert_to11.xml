@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.ConvertTo11Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/number_to_11"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_change_to_11"
+            android:layout_width="80dp"
+            android:textSize="10sp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@color/colorPrimary"
+            android:text="@string/convert"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:singleLine="false"
+            android:layout_marginBottom="10dp"
+            android:textSize="10sp"
+            android:text="Chuyển tương thích với các nhà mạng (Viettel , Vinaphone, Mobifone, Vietnammobile, Gmobile)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Chuyển đổi số</string>
+    <string name="please_update_permission">Vui lòng cấp quyền cho ứng dụng !!!</string>
+    <string name="description">Chuyển đổi số các nhà mạng hoàn toàn miễn phí</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="to10">11 sang 10</string>
+    <string name="to11">10 sang 11</string>
+    <string name="number_to_10">Chuyển danh bạ 11 số sang 10 số</string>
+    <string name="number_to_11">Chuyển danh bạ 10 số sang 11 số</string>
+    <string name="convert">Chuyển</string>
+</resources>
